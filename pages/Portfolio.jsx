@@ -57,7 +57,7 @@ function CreateCard({ appLink, appName, ghLink, bgImg }) {
             {appName}
           </a>
           <a href={ghLink} target="_blank" class="align-self-center">
-            <img src="./public/github.webp" style={styles.img} />
+            <img src="/github.webp" style={styles.img} />
           </a>
         </>
       )}
@@ -72,25 +72,25 @@ export default function Portfolio() {
         appLink={"https://challenge-9-pfmb.onrender.com/"}
         appName={"Weather Dashboard"}
         ghLink={"https://github.com/mnorris3/challenge-9"}
-        bgImg={"./public/weather.png"}
+        bgImg={"/weather.png"}
       />
       <CreateCard
         appLink={"https://github.com/mnorris3/challenge-10"}
         appName={"Employee Tracker"}
         ghLink={"https://github.com/mnorris3/challenge-10"}
-        bgImg={"./public/employee.png"}
+        bgImg={"/employee.png"}
       />
       <CreateCard
         appLink={"https://github.com/mnorris3/challenge-8"}
         appName={"Vehicle Maker"}
         ghLink={"https://github.com/mnorris3/challenge-8"}
-        bgImg={"./public/vehicle.png"}
+        bgImg={"/vehicle.png"}
       />
       <CreateCard
         appLink={"https://github.com/mnorris3/challenge-7"}
         appName={"README Generator"}
         ghLink={"https://github.com/mnorris3/challenge-7"}
-        bgImg={"./public/README.png"}
+        bgImg={"/README.png"}
       />
     </>
   );

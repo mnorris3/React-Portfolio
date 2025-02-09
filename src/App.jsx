@@ -24,7 +24,7 @@ function App() {
       <footer class="d-flex flex-wrap justify-content-center ">
         <a href={"https://github.com/mnorris3"} target="_blank">
           <img
-            src="./public/github.webp"
+            src="/github.webp"
             style={{ width: "50px", height: "50px" }}
             class="m-3 my-5"
           />
@@ -34,7 +34,7 @@ function App() {
           target="_blank"
         >
           <img
-            src="./public/linkedin.webp"
+            src="/linkedin.webp"
             style={{ width: "50px", height: "50px" }}
             class="m-3 my-5"
           />
