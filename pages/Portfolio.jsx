@@ -75,22 +75,22 @@ export default function Portfolio() {
         bgImg={"../images/weather.png"}
       />
       <CreateCard
-        appLink={"https://challenge-9-pfmb.onrender.com/"}
-        appName={"Weather Dashboard"}
-        ghLink={"https://github.com/mnorris3/challenge-9"}
-        bgImg={"../images/weather.png"}
+        appLink={"https://github.com/mnorris3/challenge-10"}
+        appName={"Employee Tracker"}
+        ghLink={"https://github.com/mnorris3/challenge-10"}
+        bgImg={"../images/employee.png"}
       />
       <CreateCard
-        appLink={"https://challenge-9-pfmb.onrender.com/"}
-        appName={"Weather Dashboard"}
-        ghLink={"https://github.com/mnorris3/challenge-9"}
-        bgImg={"../images/weather.png"}
+        appLink={"https://github.com/mnorris3/challenge-8"}
+        appName={"Vehicle Maker"}
+        ghLink={"https://github.com/mnorris3/challenge-8"}
+        bgImg={"../images/vehicle.png"}
       />
       <CreateCard
-        appLink={"https://challenge-9-pfmb.onrender.com/"}
-        appName={"Weather Dashboard"}
-        ghLink={"https://github.com/mnorris3/challenge-9"}
-        bgImg={"../images/weather.png"}
+        appLink={"https://github.com/mnorris3/challenge-7"}
+        appName={"README Generator"}
+        ghLink={"https://github.com/mnorris3/challenge-7"}
+        bgImg={"../images/README.png"}
       />
     </>
   );

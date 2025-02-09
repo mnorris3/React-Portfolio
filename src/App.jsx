@@ -1,11 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import NavTabs from "../Components/NavTabs";
 import { Outlet } from "react-router-dom";
 
+function MyComponent() {
+  useEffect(() => {
+    document.title = "My New Title";
+  }, []);
+}
+
 function App() {
   return (
     <>
+      <head>
+        <title>Mike Norris Portfolio</title>
+      </head>
       <header>
         <NavTabs />
       </header>

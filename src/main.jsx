@@ -1,20 +1,22 @@
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Portfolio from '../pages/Portfolio.jsx';
-import Contact from '../pages/Contact.jsx';
-import About from '../pages/About.jsx';
-import Resume from '../pages/Resume.jsx';
+import { useEffect } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import Portfolio from "../pages/Portfolio.jsx";
+import Contact from "../pages/Contact.jsx";
+import About from "../pages/About.jsx";
+import Resume from "../pages/Resume.jsx";
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     errorElement: <Error />,
     children: [
@@ -23,21 +25,21 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Portfolio',
+        path: "/Portfolio",
         element: <Portfolio />,
       },
       {
-        path: '/Contact',
+        path: "/Contact",
         element: <Contact />,
       },
       {
-        path: '/Resume',
+        path: "/Resume",
         element: <Resume />,
       },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
-)
+);
