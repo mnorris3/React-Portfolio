@@ -15,7 +15,7 @@ This is a site to house my portfolio using React and JavaScript
 
 ## Installation
 
-Follow the link to view the portfolio! https://beamish-syrniki-1d6906.netlify.app/
+Follow the link to view the portfolio! https://react-project-mike-norris.netlify.app/
 
 ## Usage
 
